@@ -23,5 +23,6 @@ urlpatterns = [
     path('channels/<int:cid>/', views.ChannelDtail.as_view()),
     path('channels/<int:cid>/pay_url/', views.ChannelPayUrl.as_view()),
     path('channels/<int:cid>/qrcode/', views.ChannelQRCode.as_view()),
-    path('orders/', views.Orders.as_view())
+    path('orders/', views.Orders.as_view()),
+    path('notify/', views.Notify.as_view()),
 ]

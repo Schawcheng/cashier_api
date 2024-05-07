@@ -1,3 +1,3 @@
-QRCODE_URL_ROOT = 'http://149.28.208.15:62305'
+QRCODE_URL_ROOT = 'https://bmt210.ink:62307'
 QRCODE_ROOT_DIR = '/opt/qrcode'
-CASHIER_CLIENT_HOST = 'http://149.28.208.15'
+CASHIER_CLIENT_HOST = 'https://bmt210.ink:62306'
